@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.nav .all-header {
+  border-bottom: 1px solid gray;
+}
+.nav .all-header ul {
+  list-style: none;
+}
+.nav .all-header ul li .active {
+  color: #3562d8;
+}
+.nav .all-header ul li .active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #67a0ec;
+}
+.nav .all-header ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.5s;
+}
+.nav .all-header ul li a:hover {
+  color: #3562d8;
+}
+
+.form-section {
+  padding: 2rem 0;
+}
+.form-section .top-input {
+  color: #3562d8;
+}
+.form-section form {
+  margin: 20px 0;
+}
+.form-section form .input {
+  border: 1px solid #333;
+  padding: 9px;
+  border-radius: 6px;
+}
+.form-section form .input .input-text {
+  border: none;
+  outline: none !important;
+}
+.form-section form .date-input {
+  border: 1px solid #333;
+  padding: 9px;
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+}
+.form-section form .date-input .check {
+  font-size: 12px;
+  position: absolute;
+  top: -2px;
+  left: 25px;
+}
+.form-section form .date-input .input-date {
+  border: none;
+  outline: none !important;
+}
+.form-section .checkbox-div .checked {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid #3660cb;
+  height: 15px;
+  border-radius: 2px;
+  width: 15px;
+  margin-top: -2px;
+}/*# sourceMappingURL=style.css.map */
